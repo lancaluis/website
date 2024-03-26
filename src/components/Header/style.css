@@ -13,3 +13,20 @@
   align-items: center;
   gap: 1rem;
 }
+
+@media only screen and (max-width: 768px) {
+  .header-container {
+    justify-content: center;
+  }
+
+  .header-container-tools {
+    gap: 3rem;
+  }
+  .mobile-menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem 2rem;
+    border-bottom: var(--border) solid 1px;
+  }
+}
+

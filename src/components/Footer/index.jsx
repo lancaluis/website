@@ -1,10 +1,12 @@
 import { FaEthereum } from "react-icons/fa";
 import packageJson from "/package.json";
 
+import { useBreakPoints } from "../../hooks/useMediaQuery";
 import "./style.css";
 
 export const Footer = () => {
   const CRIPTO_ADDRESS = "0x3445c0429913D494eC7A388957E257E7D044ddef";
+  const { sm } = useBreakPoints();
 
   return (
     <div className="footer-container">
@@ -16,16 +18,16 @@ export const Footer = () => {
           }}
         >
           Sponsor me:&nbsp;
-          <FaEthereum className="footer-container-cripto-icon" />{" "}
-          {CRIPTO_ADDRESS}
+          <span style={{ display: "flex", alignItems: "flex-start" }}>
+            <FaEthereum className="footer-container-cripto-icon" />{" "}
+            {CRIPTO_ADDRESS}
+          </span>
         </button>
       </div>
       <div className="footer-container-content">
-        <p>v{packageJson.version}</p>
+        {!sm ? <p>v{packageJson.version}</p> : null}
         <p>2018 - 2024 &copy; Developed in South America</p>
-        <span>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        </span>
+        {!sm ? <span style={{ width: "30px" }}></span> : null}
       </div>
     </div>
   );
