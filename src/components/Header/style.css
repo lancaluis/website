@@ -1,0 +1,15 @@
+.header-container {
+  width: 100%;
+  padding: 1rem 2rem;
+  border-bottom: var(--border) solid 1px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-container-tools {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

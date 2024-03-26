@@ -1,0 +1,26 @@
+.navbar-container {
+    display: flex;
+    margin-right: 3rem;
+    gap: 1rem;
+}
+
+.navbar-container-link {
+    text-decoration: none;
+    color: var(--text-primary);
+    cursor: pointer;
+}
+
+.navbar-container-link:hover {
+    text-decoration: underline;
+    color: var(--accent);
+}
+
+.external-link {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.external-link-icon {
+    font-size: 0.8rem;
+}
