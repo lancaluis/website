@@ -9,6 +9,28 @@
   transition: background-color 0.25s ease-in-out;
 }
 
+.user-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.user-section img {
+  max-width: 200px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+}
+
+.user-section h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 2rem 0 1rem;
+}
+
+.user-section h3 {
+  font-size: 1.3rem;
+}
+
 .title {
   color: var(--primary-text-color);
   margin-bottom: 50px;
@@ -19,4 +41,16 @@
   border-radius: 10px;
   background-color: var(--foreground-color);
   color: var(--secondary-text-color);
+}
+
+@media only screen and (max-width: 768px) {
+  .user-section img {
+    max-width: 150px;
+  }
+  .user-section h1 {
+    font-size: 1.7rem;
+  }
+  .user-section h3 {
+    font-size: 1rem;
+  }
 }
