@@ -3,5 +3,12 @@
     "HOME": "início",
     "TIMELINE": "carreira",
     "BLOG": "artigos"
+  },
+  "PAGES": {
+    "HOME": {
+      "TITLE": "Olá! Sou o Luís 👋",
+      "SUBTITLE": "Metade engenheiro, metade viajante",
+      "INTRO": "Aqui você encontrará todas as informações sobre mim, desde minha carreira até minhas aventuras ao redor da Terra. Bem-vindo ao meu mundo!"
+    }
   }
 }

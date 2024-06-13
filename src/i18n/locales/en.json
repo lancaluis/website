@@ -3,5 +3,12 @@
     "HOME": "home",
     "TIMELINE": "work xp",
     "BLOG": "articles"
+  },
+  "PAGES": {
+    "HOME": {
+      "TITLE": "Hey! I'm Luís 👋",
+      "SUBTITLE": "Part time engineer, full time traveler",
+      "INTRO": "Here you will find all the information about me, from my professional background to my travel adventures around the Earth. Welcome to my world!"
+    }
   }
 }

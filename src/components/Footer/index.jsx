@@ -10,24 +10,13 @@ export const Footer = () => {
 
   return (
     <div className="footer-container">
-      <div className="footer-container-cripto">
-        <button
-          className="footer-container-cripto-button"
-          onClick={() => {
-            navigator.clipboard.writeText(CRIPTO_ADDRESS);
-          }}
-        >
-          Sponsor me:&nbsp;
-          <span style={{ display: "flex", alignItems: "flex-start" }}>
-            <FaEthereum className="footer-container-cripto-icon" />{" "}
-            {CRIPTO_ADDRESS}
-          </span>
-        </button>
-      </div>
       <div className="footer-container-content">
         {!sm ? <p>v{packageJson.version}</p> : null}
         <p>2018 - 2024 &copy; Developed in South America</p>
-        {!sm ? <span style={{ width: "30px" }}></span> : null}
+        {!sm ? <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }} onClick={() => {
+          navigator.clipboard.writeText(CRIPTO_ADDRESS);
+        }} ><FaEthereum className="footer-container-cripto-icon" />
+          0x344...</div> : null}
       </div>
     </div>
   );

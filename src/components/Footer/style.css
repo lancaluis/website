@@ -11,54 +11,7 @@
   font-size: 0.8rem;
 }
 
-.footer-container-cripto {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-  margin-top: -1.7rem;
-}
-
-.footer-container-cripto-button {
-  display: flex;
-  align-items: center;
-  width: fit-content;
-  gap: 0.1rem;
-  background: var(--background);
-  color: var(--text-primary);
-  padding: 1rem;
-  border-radius: 8px;
-  font-size: 0.9rem;
-  border: 1px solid var(--border);
-}
-
-.footer-container-cripto-button:hover {
-  cursor: pointer;
-}
-
-.footer-container-cripto-icon:hover {
-  -webkit-transform: rotate(360deg);
-  -moz-transform: rotate(360deg);
-  -ms-transform: rotate(360deg);
-  -o-transform: rotate(360deg);
-  transform: rotate(360deg);
-  transition: 1s ease-in-out;
-}
-
 @media only screen and (max-width: 768px) {
-  .footer-container-cripto-button {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.5rem;
-    font-size: 0.7rem;
-    color: var(--text-primary);
-  }
-
-  .footer-container-cripto {
-    margin-top: -2.4rem;
-  }
-
   .footer-container-content {
     justify-content: center;
   }
