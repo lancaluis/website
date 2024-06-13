@@ -32,6 +32,7 @@
 
 .option:hover {
   background-color: var(--accent);
+  color: var(--text-secundary);
   border-radius: 4px;
 }
 

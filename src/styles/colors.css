@@ -1,15 +1,15 @@
 :root {
   --background: #f2f2f2;
   --text-primary: #0f0f0f;
-  --text-secondary: #4e4e4e;
-  --accent: #dfb017;
+  --text-secundary: #F2F2F2;
+  --accent: #2c73ba;
   --border: #1f1e1e;
 }
 
 [data-theme="dark"] {
-  --background: #05010a;
-  --text-primary: #f2f2f2;
-  --text-secondary: #a7a4a4;
-  --accent: #6a5acd;
-  --border: #696969;
+  --background: #121214;
+  --text-primary: #F2F2F2;
+  --text-secundary: #121214;
+  --accent: #6FA6DD;
+  --border: #252529;
 }

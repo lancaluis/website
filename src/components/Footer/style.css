@@ -24,7 +24,8 @@
   align-items: center;
   width: fit-content;
   gap: 0.1rem;
-  background: #f2f2f2;
+  background: var(--background);
+  color: var(--text-primary);
   padding: 1rem;
   border-radius: 8px;
   font-size: 0.9rem;
